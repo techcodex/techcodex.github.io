@@ -1,0 +1,11 @@
+{
+  "name": "Muhammad Sohaib",
+  "title": "Full-Stack Developer | AI Automation Engineer",
+  "location": "Fulda, Germany",
+  "bio": "Software engineer with 5+ years of professional experience as a Full-Stack Developer, currently pursuing a master's degree in Global Software Development at Hochschule Fulda (after a B.S. in Computer Science from the University of Sargodha). Before relocating to Germany, I worked at Astute Software in Lahore building projects for Italy-based clients; since moving, I've continued my career as a Full-Stack Developer at companies in Munich, Cologne, and Dortmund. My research interests are in Data Engineering and Big Data, and I've been exploring GenAI.",
+  "email": "sohaibamjad4212@gmail.com",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/techcodex" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/muhammad-sohaib-5a334616a" }
+  ]
+}

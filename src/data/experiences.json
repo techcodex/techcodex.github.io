@@ -1,0 +1,99 @@
+[
+  {
+    "id": "exp-sebson",
+    "company": "Sebson",
+    "role": "Full Stack Developer",
+    "location": "Dortmund, Germany",
+    "startDate": "Jun 2022",
+    "endDate": "Aug 2025",
+    "summary": "Developed and maintained both front-end and back-end components of web applications — designing user-friendly, visually appealing interfaces in React on the front end, and building robust, scalable server-side functionality with Laravel on the back end.",
+    "highlights": [
+      "Automated e-commerce operations using the Amazon MWS API, reducing manual workload by 50%.",
+      "Migrated legacy MWS integrations to the Amazon SP API, implementing Login with Amazon (LWA) and AWS Signature V4 authentication.",
+      "Redesigned the frontend from jQuery and legacy CSS to React with Tailwind CSS, improving application performance and increasing developer productivity by 40%.",
+      "Developed unit and feature tests using Pest, achieving over 85% test coverage.",
+      "Optimized database queries through Redis caching, reducing load times for large datasets by up to 40%.",
+      "Implemented Spatie Laravel Data to standardize and transform API responses, improving data consistency, type safety, and maintainability.",
+      "Implemented TanStack Query on the frontend to manage server-state efficiently, enabling caching and background data synchronization.",
+      "Implemented a CI/CD pipeline using GitHub Actions to automate build, test, and deployment workflows.",
+      "Implemented component testing with Cypress and end-to-end testing with Playwright to reduce production bugs."
+    ],
+    "tags": ["PHP", "Laravel", "React", "TypeScript", "Tailwind CSS", "Redis", "Docker"]
+  },
+  {
+    "id": "exp-wio-software",
+    "company": "Wio-Software",
+    "role": "Full Stack Developer (Minijob)",
+    "location": "Köln, Germany",
+    "startDate": "Jun 2022",
+    "endDate": "Jun 2025",
+    "summary": "Worked as a Full Stack Developer on a Progressive Web App alongside studies — front end in Vue.js, back end powered by Laravel. Contributed to architectural decisions, performance optimization, and the overall technical direction of the product.",
+    "highlights": [
+      "Developed and deployed a Progressive Web App (PWA) for the fashion industry, reducing bounce rates by 50%.",
+      "Built a robust CI/CD pipeline using Docker and GitHub Actions, cutting deployment time by 35%.",
+      "Converted Figma designs into modular Vue.js components, accelerating development speed by 30%.",
+      "Developed and maintained a blog platform, creating and managing content while ensuring smooth functionality and user engagement.",
+      "Configured and managed Cloudflare services — CDN, DNS, SSL/TLS, and security rules — to improve application performance and reliability.",
+      "Implemented Sentry in Laravel for real-time error monitoring, debugging, and improved system reliability.",
+      "Integrated SendGrid for reliable transactional and marketing email delivery.",
+      "Integrated OneSignal to enable real-time push notifications, enhancing user engagement and retention."
+    ],
+    "tags": ["PHP", "Laravel", "Vue.js", "Vuex", "PWA", "Cloudflare", "Docker", "Jest"]
+  },
+  {
+    "id": "exp-tendex",
+    "company": "Tendex",
+    "role": "Full Stack Developer",
+    "location": "Munich, Germany",
+    "startDate": "Jul 2021",
+    "endDate": "May 2022",
+    "summary": "Contributed to both front-end and back-end development of an application built with Vue.js and Laravel — developing and integrating new features, and designing and maintaining ETL pipelines for data accuracy, consistency, and real-time updates.",
+    "highlights": [
+      "Increased revenue by up to 30% through the integration of SendGrid and HubSpot.",
+      "Optimized performance for over 5 million records via SQL indexing and query optimization, reducing load times from 1.5 minutes to 2 seconds.",
+      "Expanded the platform to support multiple languages (3+), boosting regional customer growth by 20%.",
+      "Implemented SSO authentication using Laravel Socialite, increasing successful login rates by 25%.",
+      "Refactored Vue.js components to the Composition API, reducing code complexity by 30%.",
+      "Maintained ETL pipelines to ensure data accuracy, consistency, and real-time updates across the system.",
+      "Implemented Vue I18n to add multi-language support, expanding reach to international users.",
+      "Used job queues to efficiently offload time-consuming processes, improving application performance.",
+      "Actively contributed to team meetings, daily scrums, and agile development sessions, improving on-time project delivery by 40%."
+    ],
+    "tags": ["PHP", "Laravel", "Python", "Vue.js", "Vuex", "ETL", "Docker"]
+  },
+  {
+    "id": "exp-astute-software",
+    "company": "Astute Software",
+    "role": "Full Stack Developer",
+    "location": "Lahore, Pakistan",
+    "startDate": "Jun 2019",
+    "endDate": "Feb 2021",
+    "summary": "Developed and maintained front-end and back-end components of web applications for Italy-based clients prior to relocating to Germany — designing intuitive UIs in Vue.js, deploying via CI/CD pipelines, and developing secure, mobile-consumable APIs with Laravel and Java.",
+    "highlights": [
+      "Developed and deployed multiple full-stack web applications using Laravel and Vue.js, reducing development time by 30%.",
+      "Accelerated mobile backend integration by 30% through RESTful APIs for Android and iOS.",
+      "Developed a mobile chat application with Socket.IO, supporting over 5,000 concurrent users.",
+      "Implemented OAuth 2.0, JWT, Sanctum, and Passport for secure authentication and authorization.",
+      "Implemented queues and jobs in Laravel to handle background tasks, improving application performance.",
+      "Implemented queues for notifications and schedulers for cron jobs in Laravel, ensuring timely task execution.",
+      "Integrated Firebase Cloud Messaging (FCM) for real-time push notifications across web and mobile.",
+      "Developed multiple Progressive Web Apps (PWAs), delivering responsive, fast, offline-capable experiences."
+    ],
+    "tags": ["PHP", "Laravel", "Java", "Spring Boot", "Vue.js", "Socket.io"]
+  },
+  {
+    "id": "exp-techcodex",
+    "company": "Techcodex",
+    "role": "Founder",
+    "summary": "Founded Techcodex to digitalize small and medium-sized businesses with practical, scalable solutions — including Point of Sale (POS) systems and custom websites. Led client onboarding, requirements gathering, and the design and development of solutions using Laravel, WordPress, PHP, Vue.js, and React.",
+    "highlights": [
+      "Delivered an Inventory Management and Accounting System, providing end-to-end business solutions for SMEs.",
+      "Developed an Institute Management System, streamlining administrative processes, student management, and reporting for educational institutions.",
+      "Developed the Smart Store eCommerce platform with a \"pay-on-delivery\" system and centralized admin control.",
+      "Developed a Fake News Detection System for the Nigerian government to help identify and mitigate misinformation.",
+      "Developed custom Point of Sale (POS) systems for multiple companies, streamlining sales operations and improving transaction accuracy.",
+      "Developed parallax websites for small industries to enhance brand presence."
+    ],
+    "tags": ["PHP", "Laravel", "WordPress", "Vue.js", "React"]
+  }
+]

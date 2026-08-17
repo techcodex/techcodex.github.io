@@ -1,0 +1,42 @@
+[
+  {
+    "id": "skills-languages",
+    "category": "Languages & Databases",
+    "skills": [
+      { "name": "PHP" },
+      { "name": "Python" },
+      { "name": "Java" },
+      { "name": "TypeScript" },
+      { "name": "HTML" },
+      { "name": "CSS" },
+      { "name": "MySQL" },
+      { "name": "PostgreSQL" },
+      { "name": "MongoDB" }
+    ]
+  },
+  {
+    "id": "skills-frameworks",
+    "category": "Frameworks & Technologies",
+    "skills": [
+      { "name": "Laravel" },
+      { "name": "Vue.js" },
+      { "name": "React" },
+      { "name": "Node.js" }
+    ]
+  },
+  {
+    "id": "skills-tools",
+    "category": "Tools & Platforms",
+    "skills": [
+      { "name": "Git" },
+      { "name": "Docker" },
+      { "name": "Kubernetes" },
+      { "name": "Playwright" },
+      { "name": "AWS" },
+      { "name": "Cloudflare" },
+      { "name": "Firebase" },
+      { "name": "Jest" },
+      { "name": "Bitbucket" }
+    ]
+  }
+]

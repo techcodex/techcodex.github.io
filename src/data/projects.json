@@ -1,0 +1,84 @@
+[
+  {
+    "id": "project-industrial-management-system",
+    "title": "Industrial Management System",
+    "description": "A full-stack ERP system for managing cash flows, accounts, and accounting, handling over 7,000 transactions per day. Built with a multi-tenant architecture using Laravel.",
+    "tags": [
+      "Php",
+      "Laravel",
+      "Vue",
+      "TypeScript",
+      "Tailwind CSS",
+      "MySQL",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "links": [],
+    "featured": true,
+    "problem": "Businesses needed a way to track cash flows, accounts, and accounting across multiple clients without separate deployments per client, while reliably handling a high volume of daily transactions.",
+    "outcome": "Delivered a multi-tenant Laravel ERP that reliably processes over 7,000 transactions per day, consolidating cash-flow, account, and accounting management into a single platform."
+  },
+  {
+    "id": "project-advanced-rag-pipeline:",
+    "title": "Advanced RAG-Pipeline",
+    "description": "Developed a scalable RAG pipeline using ChromaDB and Ollama for context-aware question-answering systems. Enabled flexible switching between local and cloud-based LLMs and improved retrieval performance through query optimization and intelligent routing.",
+    "tags": ["Python", "Docker", "ChromaDB", "Ollama", "LangChain"],
+    "links": [],
+    "problem": "Traditional LLM-based question-answering systems often struggle to provide accurate, context-specific answers because they rely primarily on the model's pre-trained knowledge and may not have access to domain-specific or up-to-date information. This can lead to irrelevant, inaccurate, or hallucinated responses, while also making it difficult to efficiently switch between locally hosted and cloud-based LLMs.",
+    "outcome": "The resulting product provided a context-aware and scalable question-answering system that generated more relevant and grounded responses by leveraging retrieved knowledge rather than relying solely on the LLM's internal knowledge. Query optimization improved retrieval performance, while intelligent routing provided flexibility in choosing between local and cloud models based on factors such as performance, availability, and deployment requirements. The architecture therefore offered a more reliable, adaptable, and cost-conscious foundation for enterprise and domain-specific AI applications.."
+  },
+  {
+    "id": "project-prenoto360",
+    "title": "Prenoto360",
+    "description": "An appointment management system that lets users schedule appointments with merchants and shopkeepers. Supports QR-code-based appointment booking for a safe, contactless experience — particularly useful during the COVID-19 pandemic.",
+    "tags": ["Laravel", "Vue", "Php", "MySQL", "PostgreSQL", "Docker"],
+    "links": [],
+    "problem": "Merchants and shopkeepers needed a way to manage customer appointments without in-person queuing or contact, especially during the COVID-19 pandemic.",
+    "outcome": "Prenoto360 gave merchants a QR-code-based booking flow that let customers schedule appointments contactlessly, reducing in-person queuing and exposure risk."
+  },
+  {
+    "id": "project-fiscal-gragen",
+    "title": "Fiscal Gragen (Forfettaria)",
+    "description": "A web application facilitating client–lawyer interactions for tax matters. Clients can hire lawyers through the platform, while lawyers manage clients, track activities, and assist with tax returns and other legal services. Built RESTful APIs in Laravel for the mobile tax app, with real-time chat via Socket.IO, secure authentication via Laravel Sanctum, and push notifications via Firebase.",
+    "tags": ["Laravel", "Vue", "Php", "Socket.IO", "Firebase"],
+    "links": [],
+    "problem": "Clients needed a straightforward way to find and work with lawyers for tax filing and legal matters, while lawyers needed tools to manage multiple clients, track case activity, and communicate in real time.",
+    "outcome": "Built a Laravel-backed platform connecting clients and lawyers for tax and legal services, with real-time chat (Socket.IO), secure authentication (Sanctum), and push notifications (Firebase) keeping both sides in sync throughout a case."
+  },
+  {
+    "id": "project-point-of-sale",
+    "title": "Point Of Sale",
+    "description": "Custom Point of Sale (POS) systems built for multiple businesses, streamlining sales operations, inventory management, and transaction processing with real-time reporting and analytics for owners.",
+    "tags": ["Php", "JQuery", "MySQL", "PostgreSQL", "XAMPP"],
+    "links": [],
+    "problem": "Small and medium businesses relied on manual or fragmented processes for sales, inventory tracking, and transaction reporting, making day-to-day operations error-prone and slow.",
+    "outcome": "Delivered custom POS systems used across multiple businesses that improved accuracy and efficiency in daily operations, with real-time reporting and analytics giving owners visibility into their business."
+  },
+  {
+    "id": "project-fake-news-detector",
+    "title": "Fake News Detector",
+    "description": "A Fake News Detection System built for the Nigerian government using machine learning algorithms. The system aggregates news headlines from multiple international and local sources (BBC, CNN, Reuters, and others) and rates credibility based on how many reputable sources report a story, flagging stories reported by few or none as potentially fake.",
+    "tags": ["Python", "Pandas", "NumPy", "NLTK", "spaCy", "scikit-learn", "Sentence Transformers"],
+    "links": [],
+    "problem": "Misinformation spreads quickly across news outlets, and there was no automated way to flag stories that lacked corroboration from reputable sources.",
+    "outcome": "Built a machine-learning system for the Nigerian government that aggregates headlines from major international and local outlets and flags low-corroboration stories as potentially fake, giving an automated, data-driven signal for combating misinformation."
+  },
+  {
+    "id": "project-smart-store",
+    "title": "Smart Store",
+    "description": "An eCommerce platform designed to protect customers and prevent fraud: customers confirm payment only after receiving and verifying their order matches what they saw online, with Smart Store acting as a trusted intermediary between retailers and buyers.",
+    "tags": ["Php", "Jquery", "MySQL", "PostgreSQL", "Laragon"],
+    "links": [],
+    "problem": "Online shoppers were at risk of fraud — paying for products that didn't match what was advertised — with no trusted way to verify an order before completing payment.",
+    "outcome": "Smart Store let customers confirm payment only after receiving and verifying their order, acting as a trusted intermediary between retailers and buyers and reducing fraudulent transactions."
+  },
+  {
+    "id": "project-chiesi-pwa",
+    "title": "Chiesi PWA for World Premature Day",
+    "description": "A Progressive Web App built for Chiesi to raise global awareness about the challenges faced by premature babies and their parents, helping families better understand and navigate the hurdles associated with premature births.",
+    "tags": ["Vue"],
+    "links": [],
+    "problem": "Families of premature babies often lack accessible resources to understand and navigate the medical and emotional challenges they face, and Chiesi needed a way to raise broader public awareness for World Premature Day.",
+    "outcome": "Delivered a Progressive Web App for Chiesi that helped raise global awareness of the challenges facing premature babies and their families, giving families a more accessible resource to understand and navigate those challenges."
+  }
+]

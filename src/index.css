@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/*
+ * Token names describe ROLE, not literal color — "ink" is always primary
+ * text, "paper" is always the page surface, whatever the active palette is.
+ * This is a dark palette (paper = dark, ink = light text), built off the
+ * favicon's existing dark-circle + gold-"S" identity. See
+ * decisions/0009-dark-theme-redesign.md.
+ */
+@theme {
+  --color-ink: #f5f1e8;
+  --color-ink-soft: #a39c8f;
+  --color-paper: #1c1a22;
+  --color-paper-dim: #26232c;
+  --color-border: #38343f;
+  --color-accent: #c99a3f;
+  --color-accent-soft: #f4c95d;
+
+  --font-heading: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Light theme override — see decisions/0011-theme-toggle.md. Unlayered on
+   purpose: Tailwind's @theme values compile into @layer theme, and unlayered
+   CSS always wins over layered CSS regardless of selector specificity. */
+:root[data-theme="light"] {
+  --color-ink: #1c1a22;
+  --color-ink-soft: #4a4652;
+  --color-paper: #faf9f6;
+  --color-paper-dim: #f1efe9;
+  --color-border: #e4e1d8;
+  --color-accent: #b3782e;
+  --color-accent-soft: #f4c95d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-paper);
+}
