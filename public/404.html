@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages has no server-side rewrite, so a hard refresh or direct
+      // link to a client-side route (e.g. /projects) 404s here instead of
+      // reaching index.html. This encodes the intended path into a query
+      // string and redirects to the real app, which decodes it back (see the
+      // matching script in index.html) — the standard spa-github-pages trick.
+      // https://github.com/rafgraph/spa-github-pages
+      var path = location.pathname + location.search + location.hash;
+      location.replace(location.origin + "/?redirect=" + encodeURIComponent(path));
+    </script>
+  </head>
+  <body></body>
+</html>

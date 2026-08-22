@@ -7,6 +7,18 @@
         document.documentElement.setAttribute("data-theme", stored === "light" ? "light" : "dark");
       })();
     </script>
+    <script>
+      // Counterpart to public/404.html's redirect — restores the real URL
+      // (path/query/hash) before React Router mounts, so a deep link that
+      // bounced through 404.html ends up on the right page instead of "/".
+      (function () {
+        var params = new URLSearchParams(location.search);
+        var redirect = params.get("redirect");
+        if (redirect) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

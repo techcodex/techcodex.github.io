@@ -6,7 +6,7 @@
     "location": "Dortmund, Germany",
     "startDate": "Jun 2022",
     "endDate": "Aug 2025",
-    "summary": "Developed and maintained both front-end and back-end components of web applications — designing user-friendly, visually appealing interfaces in React on the front end, and building robust, scalable server-side functionality with Laravel on the back end.",
+    "summary": "Developed and maintained both front-end and back-end components of web applications designing user-friendly, visually appealing interfaces in React on the front end, and building robust, scalable server-side functionality with Laravel on the back end.",
     "highlights": [
       "Automated e-commerce operations using the Amazon MWS API, reducing manual workload by 50%.",
       "Migrated legacy MWS integrations to the Amazon SP API, implementing Login with Amazon (LWA) and AWS Signature V4 authentication.",
@@ -27,13 +27,13 @@
     "location": "Köln, Germany",
     "startDate": "Jun 2022",
     "endDate": "Jun 2025",
-    "summary": "Worked as a Full Stack Developer on a Progressive Web App alongside studies — front end in Vue.js, back end powered by Laravel. Contributed to architectural decisions, performance optimization, and the overall technical direction of the product.",
+    "summary": "Worked as a Full Stack Developer on a Progressive Web App alongside studies front end in Vue.js, back end powered by Laravel. Contributed to architectural decisions, performance optimization, and the overall technical direction of the product.",
     "highlights": [
       "Developed and deployed a Progressive Web App (PWA) for the fashion industry, reducing bounce rates by 50%.",
       "Built a robust CI/CD pipeline using Docker and GitHub Actions, cutting deployment time by 35%.",
       "Converted Figma designs into modular Vue.js components, accelerating development speed by 30%.",
       "Developed and maintained a blog platform, creating and managing content while ensuring smooth functionality and user engagement.",
-      "Configured and managed Cloudflare services — CDN, DNS, SSL/TLS, and security rules — to improve application performance and reliability.",
+      "Configured and managed Cloudflare services CDN, DNS, SSL/TLS, and security rules to improve application performance and reliability.",
       "Implemented Sentry in Laravel for real-time error monitoring, debugging, and improved system reliability.",
       "Integrated SendGrid for reliable transactional and marketing email delivery.",
       "Integrated OneSignal to enable real-time push notifications, enhancing user engagement and retention."
@@ -47,7 +47,7 @@
     "location": "Munich, Germany",
     "startDate": "Jul 2021",
     "endDate": "May 2022",
-    "summary": "Contributed to both front-end and back-end development of an application built with Vue.js and Laravel — developing and integrating new features, and designing and maintaining ETL pipelines for data accuracy, consistency, and real-time updates.",
+    "summary": "Contributed to both front-end and back-end development of an application built with Vue.js and Laravel developing and integrating new features, and designing and maintaining ETL pipelines for data accuracy, consistency, and real-time updates.",
     "highlights": [
       "Increased revenue by up to 30% through the integration of SendGrid and HubSpot.",
       "Optimized performance for over 5 million records via SQL indexing and query optimization, reducing load times from 1.5 minutes to 2 seconds.",
@@ -68,7 +68,7 @@
     "location": "Lahore, Pakistan",
     "startDate": "Jun 2019",
     "endDate": "Feb 2021",
-    "summary": "Developed and maintained front-end and back-end components of web applications for Italy-based clients prior to relocating to Germany — designing intuitive UIs in Vue.js, deploying via CI/CD pipelines, and developing secure, mobile-consumable APIs with Laravel and Java.",
+    "summary": "Developed and maintained front-end and back-end components of web applications for Italy-based clients prior to relocating to Germany designing intuitive UIs in Vue.js, deploying via CI/CD pipelines, and developing secure, mobile-consumable APIs with Laravel and Java.",
     "highlights": [
       "Developed and deployed multiple full-stack web applications using Laravel and Vue.js, reducing development time by 30%.",
       "Accelerated mobile backend integration by 30% through RESTful APIs for Android and iOS.",
@@ -85,7 +85,7 @@
     "id": "exp-techcodex",
     "company": "Techcodex",
     "role": "Founder",
-    "summary": "Founded Techcodex to digitalize small and medium-sized businesses with practical, scalable solutions — including Point of Sale (POS) systems and custom websites. Led client onboarding, requirements gathering, and the design and development of solutions using Laravel, WordPress, PHP, Vue.js, and React.",
+    "summary": "Founded Techcodex to digitalize small and medium-sized businesses with practical, scalable solutions including Point of Sale (POS) systems and custom websites. Led client onboarding, requirements gathering, and the design and development of solutions using Laravel, WordPress, PHP, Vue.js, and React.",
     "highlights": [
       "Delivered an Inventory Management and Accounting System, providing end-to-end business solutions for SMEs.",
       "Developed an Institute Management System, streamlining administrative processes, student management, and reporting for educational institutions.",
