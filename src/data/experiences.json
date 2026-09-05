@@ -1,5 +1,26 @@
 [
   {
+    "id": "exp-wio-software",
+    "company": "Wio-Software",
+    "role": "Full Stack Developer (Minijob)",
+    "location": "Köln, Germany",
+    "startDate": "Jun 2022",
+    "endDate": "Present",
+    "summary": "Worked as a Full Stack Developer on a Progressive Web App alongside studies front end in Vue.js, back end powered by Laravel. Contributed to architectural decisions, performance optimization, and the overall technical direction of the product.",
+    "highlights": [
+      "Developed and deployed a Progressive Web App (PWA) for the fashion industry, reducing bounce rates by 50%.",
+      "Built a robust CI/CD pipeline using Docker and GitHub Actions, cutting deployment time by 35%.",
+      "Converted Figma designs into modular Vue.js components, accelerating development speed by 30%.",
+      "Developed and maintained a blog platform, creating and managing content while ensuring smooth functionality and user engagement.",
+      "Configured and managed Cloudflare services CDN, DNS, SSL/TLS, and security rules to improve application performance and reliability.",
+      "Implemented Sentry in Laravel for real-time error monitoring, debugging, and improved system reliability.",
+      "Integrated SendGrid for reliable transactional and marketing email delivery.",
+      "Integration of Capacitor to convert the existing PWA into a native mobile app for Android and iOS.",
+      "Integrated OneSignal to enable real-time push notifications, enhancing user engagement and retention."
+    ],
+    "tags": ["PHP", "Laravel", "Vue.js", "Vuex", "PWA", "Cloudflare", "Docker", "Jest"]
+  },
+  {
     "id": "exp-sebson",
     "company": "Sebson",
     "role": "Full Stack Developer",
@@ -19,26 +40,6 @@
       "Implemented component testing with Cypress and end-to-end testing with Playwright to reduce production bugs."
     ],
     "tags": ["PHP", "Laravel", "React", "TypeScript", "Tailwind CSS", "Redis", "Docker"]
-  },
-  {
-    "id": "exp-wio-software",
-    "company": "Wio-Software",
-    "role": "Full Stack Developer (Minijob)",
-    "location": "Köln, Germany",
-    "startDate": "Jun 2022",
-    "endDate": "Jun 2025",
-    "summary": "Worked as a Full Stack Developer on a Progressive Web App alongside studies front end in Vue.js, back end powered by Laravel. Contributed to architectural decisions, performance optimization, and the overall technical direction of the product.",
-    "highlights": [
-      "Developed and deployed a Progressive Web App (PWA) for the fashion industry, reducing bounce rates by 50%.",
-      "Built a robust CI/CD pipeline using Docker and GitHub Actions, cutting deployment time by 35%.",
-      "Converted Figma designs into modular Vue.js components, accelerating development speed by 30%.",
-      "Developed and maintained a blog platform, creating and managing content while ensuring smooth functionality and user engagement.",
-      "Configured and managed Cloudflare services CDN, DNS, SSL/TLS, and security rules to improve application performance and reliability.",
-      "Implemented Sentry in Laravel for real-time error monitoring, debugging, and improved system reliability.",
-      "Integrated SendGrid for reliable transactional and marketing email delivery.",
-      "Integrated OneSignal to enable real-time push notifications, enhancing user engagement and retention."
-    ],
-    "tags": ["PHP", "Laravel", "Vue.js", "Vuex", "PWA", "Cloudflare", "Docker", "Jest"]
   },
   {
     "id": "exp-tendex",

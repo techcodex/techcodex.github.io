@@ -19,13 +19,13 @@
     "outcome": "Delivered a multi-tenant Laravel ERP that reliably processes over 7,000 transactions per day, consolidating cash-flow, account, and accounting management into a single platform."
   },
   {
-    "id": "project-advanced-rag-pipeline:",
-    "title": "Advanced RAG-Pipeline",
-    "description": "Developed a scalable RAG pipeline using ChromaDB and Ollama for context-aware question-answering systems. Enabled flexible switching between local and cloud-based LLMs and improved retrieval performance through query optimization and intelligent routing.",
-    "tags": ["Python", "Docker", "ChromaDB", "Ollama", "LangChain"],
+    "id": "project-rag-as-service:",
+    "title": "RAAS – RAG-as-a-Service:",
+    "description": " A multi-tenant SaaS platform where organizations upload their documents, have them automatically chunked, embedded and indexed in a vector database, then ask natural-language questions answered by an LLM with grounded citations. Built as a three-service architecture: a Laravel API, a Vue admin SPA, and a Python/FastAPI microservice for the text-processing and embedding pipeline.",
+    "tags": ["Laravel", "Python", "Docker", "Qdrant", "Groq", "LangChain", "FastAPI", "Vue", "TypeScript", "Tailwind CSS"],
     "links": [],
-    "problem": "Traditional LLM-based question-answering systems often struggle to provide accurate, context-specific answers because they rely primarily on the model's pre-trained knowledge and may not have access to domain-specific or up-to-date information. This can lead to irrelevant, inaccurate, or hallucinated responses, while also making it difficult to efficiently switch between locally hosted and cloud-based LLMs.",
-    "outcome": "The resulting product provided a context-aware and scalable question-answering system that generated more relevant and grounded responses by leveraging retrieved knowledge rather than relying solely on the LLM's internal knowledge. Query optimization improved retrieval performance, while intelligent routing provided flexibility in choosing between local and cloud models based on factors such as performance, availability, and deployment requirements. The architecture therefore offered a more reliable, adaptable, and cost-conscious foundation for enterprise and domain-specific AI applications.."
+    "problem": "Organizations hold large internal document collections that employees can't search effectively keyword search misses intent, and pasting documents into a public chatbot is insecure and loses source traceability. The goal was a platform that turns any organization's documents into a natural-language Q&A service with cited sources, while handling strict multi-tenant isolation, a non-blocking ingestion pipeline, grounded answers that cite real excerpts, and the flexibility for each tenant to bring their own LLM provider key.",
+    "outcome": "Delivered a working multi-tenant RAG platform built as three services a Laravel API, a Vue 3 admin SPA, and a Python/FastAPI embedding pipeline running as a one-command Docker stack with Postgres, Redis, Qdrant, and MinIO. Tenant isolation is enforced automatically at the ORM layer, document ingestion runs as resumable queued jobs, and the LLM layer is pluggable behind a single interface with three providers integrated (Anthropic, Gemini, Groq). Covered by ~110 automated tests across backend, microservice, and frontend."
   },
   {
     "id": "project-prenoto360",
