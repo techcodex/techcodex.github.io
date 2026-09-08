@@ -17,6 +17,8 @@ export interface Project {
   description: string;
   tags: string[];
   links?: { label: string; url: string }[];
+  liveUrl?: string;
+  githubUrl?: string;
   imageUrl?: string;
   featured?: boolean;
   problem?: string;

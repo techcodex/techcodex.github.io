@@ -13,6 +13,7 @@
       "PostgreSQL",
       "Docker"
     ],
+    "liveUrl": "https://demo.techcodex.digital/",
     "links": [],
     "featured": true,
     "problem": "Businesses needed a way to track cash flows, accounts, and accounting across multiple clients without separate deployments per client, while reliably handling a high volume of daily transactions.",
@@ -22,6 +23,7 @@
     "id": "project-rag-as-service:",
     "title": "RAAS – RAG-as-a-Service:",
     "description": " A multi-tenant SaaS platform where organizations upload their documents, have them automatically chunked, embedded and indexed in a vector database, then ask natural-language questions answered by an LLM with grounded citations. Built as a three-service architecture: a Laravel API, a Vue admin SPA, and a Python/FastAPI microservice for the text-processing and embedding pipeline.",
+    "githubUrl": "https://github.com/techcodex/RAAS",
     "tags": [
       "Laravel",
       "Python",

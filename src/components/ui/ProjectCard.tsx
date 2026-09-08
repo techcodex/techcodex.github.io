@@ -1,5 +1,6 @@
 import clsx from "clsx";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Globe } from "lucide-react";
+import { SiGithub } from "react-icons/si";
 import { useNavigate } from "react-router-dom";
 import { Badge } from "./Badge";
 import type { Project } from "../../types/content";
@@ -26,9 +27,41 @@ export function ProjectCard({ project, featured }: { project: Project; featured?
         featured && "sm:p-8",
       )}
     >
-      <h3 className={clsx("font-heading font-medium text-ink", featured ? "text-2xl" : "text-lg")}>
-        {project.title}
-      </h3>
+      <div className="flex items-start justify-between gap-3">
+        <h3
+          className={clsx("font-heading font-medium text-ink", featured ? "text-2xl" : "text-lg")}
+        >
+          {project.title}
+        </h3>
+        {(project.liveUrl || project.githubUrl) && (
+          <div className="flex shrink-0 items-center gap-3 pt-1">
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                aria-label={`Visit live site for ${project.title}`}
+                className="text-ink-soft transition-colors hover:text-accent"
+              >
+                <Globe size={18} />
+              </a>
+            )}
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                aria-label={`View source on GitHub for ${project.title}`}
+                className="text-ink-soft transition-colors hover:text-accent"
+              >
+                <SiGithub size={17} />
+              </a>
+            )}
+          </div>
+        )}
+      </div>
       <p className="mt-2 leading-relaxed text-ink-soft">{project.description}</p>
 
       <div className="mt-auto flex flex-col gap-4 pt-4">

@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
-import { ArrowLeft, ArrowUpRight } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Globe } from "lucide-react";
+import { SiGithub } from "react-icons/si";
 import { contentService } from "../services/contentService";
 import { useContent } from "../hooks/useContent";
 import { FadeInSection } from "../components/ui/FadeInSection";
@@ -63,9 +64,31 @@ export function ProjectDetailPage() {
           </div>
         )}
 
-        {project.links && project.links.length > 0 && (
+        {(project.liveUrl || project.githubUrl || (project.links && project.links.length > 0)) && (
           <div className="mt-10 flex flex-wrap gap-4">
-            {project.links.map((link) => (
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-accent-soft px-5 py-2.5 text-sm font-medium text-paper transition-opacity hover:opacity-90"
+              >
+                <Globe size={16} />
+                Live Site
+              </a>
+            )}
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium text-ink transition-colors hover:bg-paper-dim"
+              >
+                <SiGithub size={15} />
+                GitHub
+              </a>
+            )}
+            {project.links?.map((link) => (
               <a
                 key={link.url}
                 href={link.url}
