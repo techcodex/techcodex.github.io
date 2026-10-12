@@ -23,7 +23,7 @@ function createMessage(role: ChatMessage["role"], content: string): ChatMessage 
 
 const GREETING = createMessage(
   "assistant",
-  "Hi! Ask me anything about Sohaib's experience, skills, or projects.",
+  "Hi! Ask me anything about Muhammad Sohaib's experience, skills, or projects.",
 );
 
 const FALLBACK_ERROR =
