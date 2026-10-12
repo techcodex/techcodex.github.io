@@ -3,6 +3,7 @@ import { Nav } from "./Nav";
 import { Footer } from "./Footer";
 import { contentService } from "../../services/contentService";
 import { useContent } from "../../hooks/useContent";
+import { ChatWidget } from "../ui/ChatWidget";
 
 export function Layout() {
   const { data: profile } = useContent(() => contentService.getProfile());
@@ -14,6 +15,7 @@ export function Layout() {
         <Outlet />
       </main>
       <Footer profile={profile} />
+      <ChatWidget />
     </div>
   );
 }

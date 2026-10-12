@@ -1,0 +1,10 @@
+name = "portfolio-chatbot"
+main = "src/index.ts"
+compatibility_date = "2026-10-12"
+
+# Non-secret config. The Groq API key is NOT here — it's set via
+# `npm run secret:groq` (wrangler secret put), which stores it encrypted
+# in Cloudflare's own secret store, never in this file or in git.
+[vars]
+GROQ_MODEL = "openai/gpt-oss-120b"
+ALLOWED_ORIGINS = "https://techcodex.github.io,http://localhost:5173"

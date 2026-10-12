@@ -13,6 +13,10 @@ dist-ssr
 *.local
 .env
 
+# Cloudflare Worker (worker/) — wrangler's local cache and local-dev secrets
+.wrangler
+.dev.vars
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
