@@ -8,7 +8,12 @@ interface ChatMessage {
   content: string;
 }
 
-const CHAT_API_URL = import.meta.env.VITE_CHAT_API_URL as string | undefined;
+// Public Worker URL — not a secret (see worker/README.md). Defaults to the
+// deployed Worker so production builds (GitHub Actions, Docker) work with no
+// extra config; override via .env locally to point at `wrangler dev` instead.
+const CHAT_API_URL =
+  (import.meta.env.VITE_CHAT_API_URL as string | undefined) ||
+  "https://portfolio-chatbot.sohaibamjad4212.workers.dev";
 
 let nextMessageId = 0;
 function createMessage(role: ChatMessage["role"], content: string): ChatMessage {
